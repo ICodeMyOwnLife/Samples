@@ -59,7 +59,7 @@ namespace MVVMValidation {
         #line hidden
         
         
-        #line 59 "..\..\MainWindow.xaml"
+        #line 55 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox TxtName;
         
@@ -67,7 +67,7 @@ namespace MVVMValidation {
         #line hidden
         
         
-        #line 63 "..\..\MainWindow.xaml"
+        #line 59 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox TxtAge;
         
@@ -75,7 +75,7 @@ namespace MVVMValidation {
         #line hidden
         
         
-        #line 67 "..\..\MainWindow.xaml"
+        #line 63 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ComboBox CbxGender;
         
@@ -83,7 +83,7 @@ namespace MVVMValidation {
         #line hidden
         
         
-        #line 70 "..\..\MainWindow.xaml"
+        #line 66 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox TxtEmail;
         
@@ -91,7 +91,7 @@ namespace MVVMValidation {
         #line hidden
         
         
-        #line 74 "..\..\MainWindow.xaml"
+        #line 70 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox TxtRepeatEmail;
         
@@ -134,7 +134,7 @@ namespace MVVMValidation {
             case 2:
             this.TxtId = ((System.Windows.Controls.TextBox)(target));
             
-            #line 55 "..\..\MainWindow.xaml"
+            #line 51 "..\..\MainWindow.xaml"
             this.TxtId.AddHandler(System.Windows.Controls.Validation.ErrorEvent, new System.EventHandler<System.Windows.Controls.ValidationErrorEventArgs>(this.Validation_Error));
             
             #line default
@@ -143,7 +143,7 @@ namespace MVVMValidation {
             case 3:
             this.TxtName = ((System.Windows.Controls.TextBox)(target));
             
-            #line 59 "..\..\MainWindow.xaml"
+            #line 55 "..\..\MainWindow.xaml"
             this.TxtName.AddHandler(System.Windows.Controls.Validation.ErrorEvent, new System.EventHandler<System.Windows.Controls.ValidationErrorEventArgs>(this.Validation_Error));
             
             #line default
@@ -152,7 +152,7 @@ namespace MVVMValidation {
             case 4:
             this.TxtAge = ((System.Windows.Controls.TextBox)(target));
             
-            #line 63 "..\..\MainWindow.xaml"
+            #line 59 "..\..\MainWindow.xaml"
             this.TxtAge.AddHandler(System.Windows.Controls.Validation.ErrorEvent, new System.EventHandler<System.Windows.Controls.ValidationErrorEventArgs>(this.Validation_Error));
             
             #line default
@@ -164,7 +164,7 @@ namespace MVVMValidation {
             case 6:
             this.TxtEmail = ((System.Windows.Controls.TextBox)(target));
             
-            #line 70 "..\..\MainWindow.xaml"
+            #line 66 "..\..\MainWindow.xaml"
             this.TxtEmail.AddHandler(System.Windows.Controls.Validation.ErrorEvent, new System.EventHandler<System.Windows.Controls.ValidationErrorEventArgs>(this.Validation_Error));
             
             #line default
@@ -173,7 +173,7 @@ namespace MVVMValidation {
             case 7:
             this.TxtRepeatEmail = ((System.Windows.Controls.TextBox)(target));
             
-            #line 74 "..\..\MainWindow.xaml"
+            #line 70 "..\..\MainWindow.xaml"
             this.TxtRepeatEmail.AddHandler(System.Windows.Controls.Validation.ErrorEvent, new System.EventHandler<System.Windows.Controls.ValidationErrorEventArgs>(this.Validation_Error));
             
             #line default

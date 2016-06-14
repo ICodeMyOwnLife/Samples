@@ -35,8 +35,8 @@ namespace MVVMValidation
 
         private void Validation_Error(object sender, ValidationErrorEventArgs e)
         {
-            if (e.Action == ValidationErrorEventAction.Added) CustomerViewModel.Errors += 1;
-            if (e.Action == ValidationErrorEventAction.Removed) CustomerViewModel.Errors -= 1;
+            //if (e.Action == ValidationErrorEventAction.Added) CustomerViewModel.Errors += 1;
+            //if (e.Action == ValidationErrorEventAction.Removed) CustomerViewModel.Errors -= 1;
         }
     }
 }
